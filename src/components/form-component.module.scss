@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+.form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: Open Sans;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.balanceUSDT {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cash {
+  color: #5da787;
+  font-size: 20px;
+}
+
+.receiveAmountBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 5px;
+
+  label {
+    cursor: pointer;
+  }
+}
+
+.addField {
+  width: 140px;
+  cursor: pointer;
+  color: cornflowerblue;
+}
+
+.removeInput {
+  color: red;
+}
