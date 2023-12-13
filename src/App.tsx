@@ -5,8 +5,8 @@ import * as XLSX from 'xlsx'
 import { Button, message } from 'antd'
 import { FaRegCircle } from 'react-icons/fa'
 import { RiMenuAddLine } from 'react-icons/ri'
-import { InputComponent } from './components/input'
-import { InputField } from './components/input.type'
+import { InputField } from './components/WalletFields.type'
+import { WalletFields } from './components/WalletFields'
 
 const App: React.FC = () => {
   const [balance, setBalance] = React.useState<number>(141241.5121)
@@ -107,7 +107,7 @@ const App: React.FC = () => {
         </b>
         <p>307a2bdf34a3e5058512d14f72f9181edb6d8f7974a4984e7f63</p>
       </div>
-      <InputComponent
+      <WalletFields
         onInputChange={onInputChange}
         setInputFields={setInputFields}
         inputFields={inputFields}

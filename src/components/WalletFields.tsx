@@ -2,9 +2,9 @@ import React from 'react'
 import styles from '../index.module.scss'
 
 import { Input, message } from 'antd'
-import { InputComponentProps } from './input.type'
+import { InputComponentProps } from './WalletFields.type'
 
-export const InputComponent: React.FC<InputComponentProps> = ({
+export const WalletFields: React.FC<InputComponentProps> = ({
   inputFields,
   onInputChange,
   setInputFields,
