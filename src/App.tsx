@@ -102,7 +102,9 @@ const App: React.FC = () => {
           <FaRegCircle />
           <u>BALANCE USDT (ERC-20)</u>
         </span>
-        <b className={styles.cash}>{balance.toFixed(2)}USDT</b>
+        <b className={styles.cash}>
+          {balance.toFixed(2)}USDT <b>(ERC-20)</b>
+        </b>
         <p>307a2bdf34a3e5058512d14f72f9181edb6d8f7974a4984e7f63</p>
       </div>
       <InputComponent
@@ -115,12 +117,12 @@ const App: React.FC = () => {
           <RiMenuAddLine /> Add new wallet
         </span>
       </div>
-
       <div className={styles.receiveAmountBlock}>
         <h3>Receive amount</h3>
         <b className={styles.cash}>
           {totalAmount ? totalAmount.toFixed(2) : '0.00 '}
           USDT
+          <b>(ERC-20)</b>
         </b>
       </div>
       <Button
