@@ -1,0 +1,11 @@
+export declare const addField: string
+export declare const balance: string
+export declare const balanceUSDT: string
+export declare const blockAdd: string
+export declare const cash: string
+export declare const customButton: string
+export declare const form: string
+export declare const inputBlock: string
+export declare const inputs: string
+export declare const receiveAmountBlock: string
+export declare const removeInput: string

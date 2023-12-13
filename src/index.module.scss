@@ -1,17 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 100px;
+  width: 40%;
+  background: rgb(230, 230, 230);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: gray;
+}
+
 .form {
   display: flex;
   flex-direction: column;
   background: #fff;
-  padding: 15px;
+  padding: 25px;
   border-radius: 5px;
   font-family: Open Sans;
+  gap: 15px;
+
+  h3 {
+    margin: 0px;
+  }
 }
 
 .balance {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  padding: 10px 10px 0 10px;
 }
 
 .balanceUSDT {
@@ -21,6 +40,7 @@
 }
 
 .cash {
+  display: flex;
   color: #5da787;
   font-size: 20px;
 }
@@ -29,13 +49,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .inputBlock {
   display: flex;
   flex-direction: column;
-  gap: 15px;
   margin-top: 20px;
+  gap: 15px;
 }
 
 .inputs {
@@ -50,11 +71,25 @@
 }
 
 .addField {
-  width: 140px;
   cursor: pointer;
+  width: 140px;
   color: cornflowerblue;
+  gap: 10px;
 }
 
 .removeInput {
   color: red;
+  font-size: 12px;
+}
+
+.customButton {
+  background: gainsboro;
+  width: 150px;
+  height: 40px;
+  margin-left: 190px;
+}
+
+.blockAdd {
+  display: flex;
+  justify-content: flex-end;
 }
